@@ -1,0 +1,10 @@
+.header {
+  padding-top: 3.0625rem;
+  height: 23.25rem;
+  background-image: url("/src/assets/background.png");
+}
+
+.header__brand {
+  display: flex;
+  justify-content: center;
+}

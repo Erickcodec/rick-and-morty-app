@@ -1,0 +1,14 @@
+.characters {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 3.5rem;
+}
+
+@media screen and (max-width: 55.625rem) {
+  .characters {
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 0;
+  }
+}

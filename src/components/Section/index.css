@@ -1,0 +1,15 @@
+.main {
+  background-color: var(--background);
+  flex-grow: 1;
+}
+
+.Search {
+  transform: translateY(-50%);
+}
+
+.loading__wrapper {
+  display: grid;
+  place-content: center;
+  height: 100%;
+  margin-top: 4.5rem;
+}
